@@ -28,4 +28,5 @@
 
 | version | change | bundle | check |
 |---------|--------|--------|-------|
-| v1 | initial build: main.ts + README (3 live badges) + LICENSE MIT + owner.json + trial-log | (pending) | (pending) |
+| v1 | initial build: main.ts + README (3 live badges) + LICENSE MIT + owner.json + trial-log | bundle-v1.tar.gz, 198.428 B, sha256 `05013f10e82941f51c246f2a9d6d66f72aae06a7398991b59ca37a0a8b737871` | 12 passed / 2 failed / 5 skipped: FAIL thinking_priced (0 usage rows — subagent rows flush at run end, coordinator re-bundle) + FAIL thinking_revised (every file written once); reproduces 95,3% (41/43 lines authored); local run: /output/entry.txt = 61 chars, exact |
+| v2 | genuine revision of this trial-log with the real v1 bundle/check numbers above, re-commit + re-bundle + re-check | (pending) | (pending) |
